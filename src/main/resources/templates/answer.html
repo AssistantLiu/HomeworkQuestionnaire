@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<br lang="en">
+<br>
+<head>
+    <meta charset="UTF-8">
+    <title>"Questionnaire"</title>
+     <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+</head>
+
+
+<body>
+<form action="/answer" method="post">
+Question1:What's your name?</br>
+<input type="text" name="AnswerOfQuestion_0" id="AnswerOfQuestion_0" value=""></br>
+Question2:How old are you?</br>
+<input type="text" name="AnswerOfQuestion_1" id="AnswerOfQuestion_1" value=""></br>
+Question3:Are you a Single dog?</br>
+<input type="text" name="AnswerOfQuestion_2" id="AnswerOfQuestion_2" value=""></br>
+Question4:What's you favourite AV movie Star?</br>
+<input type="text" name="AnswerOfQuestion_3" id="AnswerOfQuestion_3" value=""></br>
+Question5:Do you like Lei_JUN?</br>
+<input type="text" name="AnswerOfQuestion_4" id="AnswerOfQuestion_4" value=""></br>
+Question6:What's you telephone number?</br>
+<input type="text" name="AnswerOfQuestion_5" id="AnswerOfQuestion_5" value=""></br>
+Question7:What's you Sex?</br>
+<input type="text" name="AnswerOfQuestion_6" id="AnswerOfQuestion_6" value=""></br>
+Question8:What's your girlfriend name?</br>
+<input type="text" name="AnswerOfQuestion_7" id="AnswerOfQuestion_7" value=""></br>
+Question9:Do you like your job?</br>
+<input type="text" name="AnswerOfQuestion_8" id="AnswerOfQuestion_8" value=""></br>
+Question10:Questionnaire to be End ,something to say?</br>
+<input type="text" name="AnswerOfQuestion_9" id="AnswerOfQuestion_9" value=""></br>
+
+<input type="submit" name="submit" id="answer"  value="提交问卷" onclick="f()">
+</form>
+</body>
+
+<script>
+    function f() {
+
+        // var AnswerOfQuestion_0 = $("#AnswerOfQuestion_0").val();
+        // var AnswerOfQuestion_1 = $("#AnswerOfQuestion_1").val();
+        // console.log("AnswerOfQuestion_0:" + AnswerOfQuestion_0)
+        // console.log("AnswerOfQuestion_1:" + AnswerOfQuestion_1)
+        // $.ajax({
+        //     url: "/login",
+        //     type: "post",
+        //     data: {username: username, password: password},
+        //     success: function (res) {
+        //         if (res === "success") {
+        //             console.log("登录成功！")
+        //         } else if (res === "fail") {
+        //             console.log("登录失败！")
+        //         }
+        //     },
+        //     error: function (res) {
+        //         console.log("失败")
+        //         console.log(res)
+        //     },
+        //     complete: function (res) {
+        //         console.log("complete")
+        //     }
+        // })
+
+    }
+</script>
+
+</html>
